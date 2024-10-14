@@ -3,10 +3,10 @@ function abrirMateria(materia) {
         window.location.href = 'biologia.html';
     } else if (materia === 'matematica') {
         window.location.href = 'matematica.html';
-    } else if (materia === 'quimica')
-        window.location.href = 'quimica.html';
-    else if (materia === 'portugues') {                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-    }   window.location.href = 'portugues.html';
+    } else if (materia === 'quimica')   {
+       window.location.href = 'quimica.html';
+    }   else if (materia === 'portugues')                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+      window.location.href = 'portugues.html';
 }
 
 function carregarFlashcards(materia) {
